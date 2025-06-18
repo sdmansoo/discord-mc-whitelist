@@ -1,0 +1,38 @@
+{
+  "name": "discord-mc-whitelist",
+  "version": "1.0.0",
+  "description": "Discord Bot to manage a Minecraft Java Server's whitelist",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdmansoo/discord-mc-whitelist.git"
+  },
+  "keywords": [
+    "discord",
+    "whitelist",
+    "minecraft"
+  ],
+  "author": "Safwan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sdmansoo/discord-mc-whitelist/issues"
+  },
+  "homepage": "https://github.com/sdmansoo/discord-mc-whitelist#readme",
+  "dependencies": {
+    "discord.js": "^14.20.0",
+    "dotenv": "^16.5.0"
+  },
+  "devDependencies": {
+    "ts-node": "*",
+    "typescript": "*",
+    "typescript-eslint": "*",
+    "vite-plugin-eslint": "*",
+    "vitest": "*"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "ts-node src/index.ts",
+    "start": "node build/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
