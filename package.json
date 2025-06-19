@@ -13,7 +13,7 @@
     "minecraft"
   ],
   "author": "Safwan",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/sdmansoo/discord-mc-whitelist/issues"
   },
@@ -31,8 +31,8 @@
   },
   "scripts": {
     "build": "tsc",
-    "dev": "ts-node src/index.ts",
-    "start": "node build/index.js",
+    "dev": "ts-node src/bot.ts",
+    "start": "node build/bot.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
